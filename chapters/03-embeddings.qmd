@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# Embeddings {#sec-embeddings}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- Turning token ids into vectors the model can compute with. The
+     embedding matrix as a learned lookup table, and its geometry. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## From ids to vectors
+
+<!-- One-hot times a matrix = a row lookup. The embedding matrix
+     E in R^{|V| x d_model} as free parameters. -->
+
+## The geometry of the embedding space
+
+<!-- What directions/distances mean; a careful, non-hyped look at
+     "semantic" structure. -->
+
+## Weight tying
+
+<!-- Sharing input embeddings with the output (unembedding) head; why, and
+     what it costs. Links to the LM head in @sec-the-transformer. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

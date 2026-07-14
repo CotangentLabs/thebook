@@ -1,0 +1,39 @@
+{{< include /_macros.qmd >}}
+
+# Data {#sec-data}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The most under-discussed lever in pretraining. Where the corpus comes
+     from, how it's cleaned, and how the mixture shapes the model. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Sources and scale
+
+<!-- Web crawls, code, books; the token-budget mindset. -->
+
+## Cleaning and deduplication
+
+<!-- Filtering, quality classifiers, exact/near-dup removal; why dedup
+     matters for both quality and memorization. -->
+
+## Mixtures and curricula
+
+<!-- Domain weighting; ordering effects; the honest state of the art. -->
+
+## The data pipeline
+
+<!-- Sharding, tokenization at scale, streaming; connects to
+     `src/thebook/tokenizer.py` and the training loop. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

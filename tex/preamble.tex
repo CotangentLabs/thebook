@@ -1,0 +1,23 @@
+% PDF-only preamble. Theorem environments, typography, spacing.
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{microtype}
+\usepackage{booktabs}
+
+% --- Theorem-like environments -------------------------------------------
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[chapter]
+\newtheorem{example}{Example}[chapter]
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{lemma}{Lemma}[chapter]
+\newtheorem{corollary}{Corollary}[chapter]
+
+% --- Typography ----------------------------------------------------------
+% Uncomment if you install the fonts / use a suitable TeX engine.
+% \usepackage{fontspec}
+% \setmainfont{Palatino}
+
+\setlength{\parskip}{0.4em}
+\setlength{\emergencystretch}{3em}   % fewer overfull boxes

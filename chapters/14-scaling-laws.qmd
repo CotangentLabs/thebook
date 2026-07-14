@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# Scaling Laws {#sec-scaling-laws}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The empirical regularities that let you predict loss from parameters,
+     data, and compute — and use them to allocate a budget. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Power laws in N, D, and C
+
+<!-- Loss as a power law in parameters, data, and compute
+     [@kaplan2020scaling]. The functional form and how it's fit. -->
+
+## Compute-optimal training
+
+<!-- The Chinchilla trade-off between model size and tokens; how to split a
+     fixed compute budget. Connects to the FLOP budget in @sec-the-transformer. -->
+
+## Uses and limits
+
+<!-- Predicting runs before launching; where the laws break; what they don't
+     capture (downstream ability). -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO: fit a toy scaling law from a sweep. -->
+
+## Further reading {.unnumbered}

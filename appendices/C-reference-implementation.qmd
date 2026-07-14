@@ -1,0 +1,27 @@
+{{< include /_macros.qmd >}}
+
+# The Reference Implementation {#sec-reference-implementation}
+
+<!-- A guided tour of `src/thebook/`, the runnable companion to the text.
+     Each module maps to a strand of the book. -->
+
+## Layout {.unnumbered}
+
+| Module | Chapter(s) | Purpose |
+|--------|-----------|---------|
+| `tokenizer.py` | @sec-tokenization | byte-level BPE |
+| `attention.py` | @sec-attention-as-gnn, @sec-attention | attention primitives |
+| `model.py` | @sec-mlp-activations – @sec-the-transformer | the GPT model |
+| `train.py` | @sec-objective-optimization – @sec-systems-at-scale | the pretraining loop |
+
+: Companion modules {#tbl-modules}
+
+## Running it {.unnumbered}
+
+<!-- The uv commands (uv sync, uv run pytest); how the static listings in the
+     text stay in sync with the package. -->
+
+## Design notes {.unnumbered}
+
+<!-- Deliberate simplifications; what was left out for clarity vs. what a real
+     nanoGPT-scale run needs. -->

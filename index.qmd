@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# Preface {.unnumbered}
+
+<!--
+The preface sells the book and sets the contract with the reader.
+Keep it short. Suggested beats below — write them in your own voice.
+-->
+
+## Why this book {.unnumbered}
+
+<!-- What gap does this fill? "A compact, first-principles account of
+     pretraining — the math-textbook companion to a nanoGPT-style repo." -->
+
+## What this book is not {.unnumbered}
+
+<!-- Scope guardrails: pretraining only (no post-training/RLHF for now);
+     modern viewpoint, not a history of RNN -> attention. -->
+
+## How to read it {.unnumbered}
+
+<!-- The dependency graph between parts; how code and math interleave;
+     what to skip on a first pass. -->
+
+## Prerequisites {.unnumbered}
+
+<!-- Point at Appendix B. Linear algebra, probability, autodiff, some PyTorch. -->
+
+## The companion code {.unnumbered}
+
+<!-- The `thebook` package: static listings in the text, runnable in src/.
+     One paragraph on how to run it (uv sync). See Appendix C. -->
+
+## Acknowledgements {.unnumbered}
+
+<!-- TODO -->

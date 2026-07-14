@@ -1,0 +1,41 @@
+{{< include /_macros.qmd >}}
+
+# The Transformer Hardware Lottery {#sec-hardware-lottery}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- Why *this* architecture won: not just that it models language well, but
+     that it maps beautifully onto the hardware we happen to build. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## The hardware lottery, stated
+
+<!-- Hooker's thesis [@hooker2021hardware]: ideas win partly by fitting the
+     available hardware. Frame the transformer as a lottery winner. -->
+
+## GPUs think in matmuls
+
+<!-- The transformer is (almost) all dense matmuls; how that saturates
+     tensor cores where recurrence does not. -->
+
+## The memory wall
+
+<!-- Arithmetic intensity, roofline; why bandwidth, not FLOPs, is often the
+     bottleneck. Attention's quadratic memory traffic. -->
+
+## FlashAttention as a case study
+
+<!-- Tiling + recomputation to keep attention in fast memory; the same math,
+     a hardware-shaped implementation. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO: roofline estimate for a given model/GPU. -->
+
+## Further reading {.unnumbered}

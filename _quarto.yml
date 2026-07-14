@@ -1,0 +1,94 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "A Book on Language Modelling"
+  subtitle: "Pretraining from First Principles"
+  # author: "Jeff Pike"
+  date: today
+  search: true
+  repo-url: https://github.com/USER/thebook
+  repo-actions: [edit, source, issue]
+  page-navigation: true
+  reader-mode: true
+  sidebar:
+    style: docked
+    collapse-level: 1
+  chapters:
+    - index.qmd
+    - part: "I — The Problem"
+      chapters:
+        - chapters/01-language-modelling.qmd
+    - part: "II — Representing Language"
+      chapters:
+        - chapters/02-tokenization.qmd
+        - chapters/03-embeddings.qmd
+    - part: "III — Architecture"
+      chapters:
+        - chapters/04-attention-as-gnn.qmd
+        - chapters/05-attention.qmd
+        - chapters/06-positional-information.qmd
+        - chapters/07-mlp-activations.qmd
+        - chapters/08-normalization-residual.qmd
+        - chapters/09-the-transformer.qmd
+    - part: "IV — Pretraining"
+      chapters:
+        - chapters/10-objective-optimization.qmd
+        - chapters/11-hardware-lottery.qmd
+        - chapters/12-systems-at-scale.qmd
+        - chapters/13-data.qmd
+        - chapters/14-scaling-laws.qmd
+    - part: "V — Beyond the Transformer"
+      chapters:
+        - chapters/15-state-space-mamba.qmd
+        - chapters/16-linear-attention-recurrence.qmd
+        - chapters/17-mixture-of-experts.qmd
+        - chapters/18-outlook.qmd
+  appendices:
+    - appendices/A-notation.qmd
+    - appendices/B-math-background.qmd
+    - appendices/C-reference-implementation.qmd
+
+bibliography: references.bib
+
+crossref:
+  # Custom, book-flavoured environment prefixes.
+  thm-title: "Theorem"
+  def-title: "Definition"
+  lem-title: "Lemma"
+  cor-title: "Corollary"
+  exm-title: "Example"
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [darkly, theme-dark.scss]
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    code-copy: true
+    code-overflow: wrap
+    html-math-method: katex
+    # The "textbook" feel: notes and citations live in the margin.
+    reference-location: margin
+    citation-location: margin
+    fig-cap-location: margin
+    grid:
+      margin-width: 300px
+
+  pdf:
+    documentclass: scrbook
+    classoption: [oneside]
+    papersize: a4
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - inner=30mm
+      - outer=45mm
+      - marginparwidth=35mm
+    include-in-header: tex/preamble.tex
+    number-sections: true
+    colorlinks: true
+    keep-tex: true

@@ -1,0 +1,23 @@
+{{< include /_macros.qmd >}}
+
+# Notation {#sec-notation}
+
+<!-- A single reference table for symbols used throughout. Fill in as the
+     macros in `_macros.qmd` settle. Keep this the source of truth. -->
+
+| Symbol | Meaning |
+|--------|---------|
+| $\vocab$ | vocabulary (set of tokens) |
+| $\dmodel$ | model / residual-stream width |
+| $\vx$ | an input/token vector |
+| $\mW$ | a weight matrix |
+| $\params$ | model parameters |
+| $\loss$ | loss |
+| $p_\params(\cdot)$ | model distribution |
+
+: Core notation {#tbl-notation}
+
+## Conventions {.unnumbered}
+
+<!-- Row vs. column vectors; batch/sequence/feature axis ordering; indexing
+     from 0 or 1. State it once, here. -->

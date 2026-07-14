@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# Normalization and the Residual Stream {#sec-normalization-residual}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The connective tissue that makes deep transformers trainable: residual
+     connections and normalization. The "residual stream" as a mental model. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Residual connections
+
+<!-- Blocks read from and write to a shared residual stream; gradients flow;
+     the additive, incremental view of computation. -->
+
+## Normalization
+
+<!-- LayerNorm vs. RMSNorm; what statistic is removed and why it stabilizes
+     optimization. -->
+
+## Pre-norm vs. post-norm
+
+<!-- Placement of the norm relative to the residual; why pre-norm won for
+     deep, stable training. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

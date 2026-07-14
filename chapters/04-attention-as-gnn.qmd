@@ -1,0 +1,42 @@
+{{< include /_macros.qmd >}}
+
+# Self-Attention from a Graph Viewpoint {#sec-attention-as-gnn}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The book's central pedagogical move: justify self-attention on its own
+     terms as message passing on a fully connected graph — no RNN history
+     required. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Sequences as sets, tokens as nodes
+
+<!-- A sequence is a set of tokens (plus positions, later). What operations
+     on sets are permutation-equivariant and why we want that. -->
+
+## Message passing
+
+<!-- The generic GNN update: aggregate neighbours, then update. Sum/mean
+     aggregation and its limits. -->
+
+## Learned, content-based edges
+
+<!-- The key idea: instead of a fixed graph, let each node choose whom to
+     listen to via a learned, data-dependent weighting. This *is* attention. -->
+
+## Why this framing pays off
+
+<!-- Sets up multi-head as multiple relation types, causal masking as a
+     directed graph, positional encoding as node features. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

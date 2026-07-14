@@ -1,0 +1,44 @@
+{{< include /_macros.qmd >}}
+
+# The Language Modelling Problem {#sec-language-modelling}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- 3-5 sentences: what is a language model, and why is "predict the next
+     token" a serious learning objective rather than a party trick? -->
+:::
+
+**Learning objectives.** After this chapter you should be able to:
+
+<!-- TODO -->
+- [ ]
+- [ ]
+- [ ]
+
+## Language as a probability distribution
+
+<!-- Text as samples from an unknown distribution over sequences. The chain
+     rule / autoregressive factorization p(x) = prod_t p(x_t | x_{<t}). -->
+
+## The pretraining objective
+
+<!-- Maximum likelihood = next-token prediction = cross-entropy. Teacher
+     forcing. Why this single objective is enough to learn so much. -->
+
+## Measuring a model
+
+<!-- Cross-entropy, perplexity, bits-per-byte. The compression connection
+     (Shannon). What a "good" number even means. -->
+
+## Generation
+
+<!-- From a distribution to text: sampling, temperature, greedy/argmax.
+     Kept brief — decoding is not the focus of a pretraining book. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}
+
+<!-- e.g. Shannon [@shannon1948] -->

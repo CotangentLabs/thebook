@@ -1,0 +1,54 @@
+<!--
+Shared math macros. Included at the top of every chapter via
+  {{< include /_macros.qmd >}}
+The HTML block feeds KaTeX/MathJax; the LaTeX block feeds the PDF preamble.
+Keep the two lists in sync. Add sparingly — macros you will actually reuse.
+-->
+
+```{=html}
+<div style="display:none">
+\(
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\vocab}{\mathcal{V}}
+\newcommand{\given}{\mid}
+\newcommand{\softmax}{\operatorname{softmax}}
+\newcommand{\KL}{\operatorname{KL}}
+\newcommand{\loss}{\mathcal{L}}
+\newcommand{\params}{\theta}
+\newcommand{\dmodel}{d_{\mathrm{model}}}
+\newcommand{\vx}{\mathbf{x}}
+\newcommand{\vh}{\mathbf{h}}
+\newcommand{\vq}{\mathbf{q}}
+\newcommand{\vk}{\mathbf{k}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\mW}{\mathbf{W}}
+\newcommand{\mX}{\mathbf{X}}
+\newcommand{\argmax}{\operatorname*{arg\,max}}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+\)
+</div>
+```
+
+```{=latex}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\vocab}{\mathcal{V}}
+\newcommand{\given}{\mid}
+\newcommand{\softmax}{\operatorname{softmax}}
+\newcommand{\KL}{\operatorname{KL}}
+\newcommand{\loss}{\mathcal{L}}
+\newcommand{\params}{\theta}
+\newcommand{\dmodel}{d_{\mathrm{model}}}
+\newcommand{\vx}{\mathbf{x}}
+\newcommand{\vh}{\mathbf{h}}
+\newcommand{\vq}{\mathbf{q}}
+\newcommand{\vk}{\mathbf{k}}
+\newcommand{\vv}{\mathbf{v}}
+\newcommand{\mW}{\mathbf{W}}
+\newcommand{\mX}{\mathbf{X}}
+\newcommand{\argmax}{\operatorname*{arg\,max}}
+\newcommand{\argmin}{\operatorname*{arg\,min}}
+```

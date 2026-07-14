@@ -1,0 +1,26 @@
+{{< include /_macros.qmd >}}
+
+# Outlook {#sec-outlook}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- Where pretraining is heading, and the seam to everything this book
+     deliberately left out. -->
+:::
+
+## What we built
+
+<!-- One-page recap of the arc: problem -> representation -> architecture ->
+     training -> alternatives. -->
+
+## Open problems
+
+<!-- Long context, efficiency, data limits, the recurrence-vs-attention
+     question. Honest uncertainties. -->
+
+## Beyond pretraining
+
+<!-- The bridge to a possible follow-up: post-training, alignment, the "real
+     stuff." Explicitly out of scope here. -->
+
+## Further reading {.unnumbered}

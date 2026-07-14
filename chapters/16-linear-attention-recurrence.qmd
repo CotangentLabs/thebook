@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# Linear Attention and Recurrence {#sec-linear-attention-recurrence}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The deep duality: softmax attention, linear attention, and RNNs are
+     three views of one idea. Removing the softmax buys recurrence. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Dropping the softmax
+
+<!-- Kernelized/linear attention: replace exp(qk) with a feature map so the
+     sum reassociates into a running state. -->
+
+## Attention as a recurrence
+
+<!-- The equivalence: linear attention has an O(1)-per-step recurrent form.
+     Bridges @sec-attention and @sec-state-space-mamba. -->
+
+## The unifying picture
+
+<!-- A single table: softmax attention / linear attention / SSMs / RNNs, and
+     what each trades. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

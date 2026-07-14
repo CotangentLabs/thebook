@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# The Feed-Forward Block {#sec-mlp-activations}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The other half of a transformer block: the position-wise MLP, where
+     much of the model's capacity (and parameters) live. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Position-wise MLPs
+
+<!-- Up-projection, nonlinearity, down-projection; applied independently per
+     position. The 4x expansion convention and its parameter cost. -->
+
+## Activation functions
+
+<!-- ReLU -> GELU -> gated variants (GLU/SwiGLU). Why gating helps; the
+     compute/quality trade-off. -->
+
+## What the MLP computes
+
+<!-- A gesture at the "key-value memory" / feature interpretation, kept
+     honest about how much we actually know. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

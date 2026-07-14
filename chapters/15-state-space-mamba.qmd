@@ -1,0 +1,40 @@
+{{< include /_macros.qmd >}}
+
+# State-Space Models and Mamba {#sec-state-space-mamba}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The leading challenger to attention: linear-time sequence models with a
+     recurrent state. The idea, and what it buys over O(n^2) attention. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Sequence models with state
+
+<!-- Linear state-space models: a continuous system, discretized; the
+     convolutional vs. recurrent views. -->
+
+## From S4 to selective state spaces
+
+<!-- Why fixed dynamics limit content-awareness; Mamba's input-dependent
+     (selective) parameters [@gu2023mamba]. -->
+
+## The hardware angle
+
+<!-- The parallel scan; how Mamba stays fast on GPUs. Ties back to
+     @sec-hardware-lottery. -->
+
+## Trade-offs vs. attention
+
+<!-- Recall vs. compression; where each wins; hybrids. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

@@ -1,0 +1,46 @@
+{{< include /_macros.qmd >}}
+
+# Tokenization {#sec-tokenization}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- The unglamorous, consequential first decision: how raw text becomes a
+     sequence of integers. Why the choice leaks into everything downstream. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+- [ ]
+
+## The vocabulary problem
+
+<!-- Characters vs. words vs. subwords. Open vocabulary, rare words, the
+     trade-off between sequence length and vocabulary size. -->
+
+## Bytes as the substrate
+
+<!-- Why byte-level is a principled floor: no unknown tokens, language-
+     agnostic, Unicode/UTF-8 realities. -->
+
+## Byte-pair encoding
+
+<!-- The BPE algorithm: iterative merging of frequent pairs. Worked small
+     example. Reference: `src/thebook/tokenizer.py`. -->
+
+## Alternatives
+
+<!-- Unigram / SentencePiece, WordPiece; a word on tokenizer-free ideas. -->
+
+## Consequences
+
+<!-- Tokenization artifacts: numbers, whitespace, code, multilingual bias;
+     how the vocab interacts with the embedding matrix (@sec-embeddings). -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO: implement BPE train/encode/decode; measure compression ratio. -->
+
+## Further reading {.unnumbered}

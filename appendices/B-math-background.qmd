@@ -1,0 +1,24 @@
+{{< include /_macros.qmd >}}
+
+# Mathematical Background {#sec-math-background}
+
+<!-- Just-enough refreshers, pitched at the reader who has seen this before.
+     Terse; point outward for depth. -->
+
+## Linear algebra {.unnumbered}
+
+<!-- Vectors, matrices, matmul as the core primitive; inner products, norms,
+     projections. -->
+
+## Probability {.unnumbered}
+
+<!-- Distributions, expectation, entropy, cross-entropy and KL; maximum
+     likelihood. -->
+
+## Calculus and autodiff {.unnumbered}
+
+<!-- Gradients, the chain rule, reverse-mode autodiff in one page. -->
+
+## Numerical computing {.unnumbered}
+
+<!-- Floating point, log-sum-exp / numerical stability of softmax. -->

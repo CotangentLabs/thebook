@@ -1,0 +1,40 @@
+{{< include /_macros.qmd >}}
+
+# Assembling the Transformer {#sec-the-transformer}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- Snap the pieces from Part III together into a full decoder-only model,
+     end to end, and count its parameters and FLOPs. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## The block
+
+<!-- attention + MLP, each wrapped in norm and residual. The canonical
+     pre-norm decoder block. -->
+
+## The full model
+
+<!-- Embedding -> N blocks -> final norm -> LM head. Weight tying revisited.
+     Reference: `src/thebook/model.py`. -->
+
+## Parameter and FLOP budget
+
+<!-- Close-form counts as a function of d_model, n_layer, n_head, vocab;
+     the ~6ND rule of thumb. Sets up scaling laws (@sec-scaling-laws). -->
+
+## A forward and backward pass
+
+<!-- Trace shapes through the whole model once, carefully. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO: assemble GPT from the stubs; verify parameter count. -->
+
+## Further reading {.unnumbered}

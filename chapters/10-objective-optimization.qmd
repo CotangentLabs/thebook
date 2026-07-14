@@ -1,0 +1,39 @@
+{{< include /_macros.qmd >}}
+
+# Objective and Optimization {#sec-objective-optimization}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- Turning a model and a corpus into learned weights: the loss surface, the
+     optimizer, and the schedules that actually make it work. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## The loss, revisited
+
+<!-- Cross-entropy over the whole sequence in parallel (teacher forcing);
+     from @sec-language-modelling to a concrete minibatch loss. -->
+
+## Optimizers
+
+<!-- SGD -> Adam -> AdamW; what the moment estimates buy; weight decay done
+     right. -->
+
+## Learning-rate schedules
+
+<!-- Warmup + cosine/linear decay; why warmup; batch size interactions. -->
+
+## Regularization and stability
+
+<!-- Gradient clipping, dropout (or its absence), initialization. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

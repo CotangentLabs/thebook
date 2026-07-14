@@ -1,0 +1,39 @@
+{{< include /_macros.qmd >}}
+
+# Systems at Scale {#sec-systems-at-scale}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- When one GPU is not enough: precision, parallelism, and memory tricks
+     that turn many accelerators into one training run. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Mixed precision
+
+<!-- fp16/bf16/fp8, loss scaling, what stays in fp32 and why. -->
+
+## Data, tensor, and pipeline parallelism
+
+<!-- The three axes; what each splits; communication costs; ZeRO/FSDP
+     sharding of states. -->
+
+## Memory-saving techniques
+
+<!-- Activation checkpointing, gradient accumulation, offloading. The
+     compute/memory trade-offs. -->
+
+## Putting it together
+
+<!-- A worked "how would you train a 1B model on N GPUs" sketch. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}

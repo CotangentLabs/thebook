@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+$font-family-sans-serif: "Inter", system-ui, -apple-system, sans-serif !default;
+$font-family-serif: "Georgia", "Iowan Old Style", "Palatino", serif !default;
+$font-family-monospace: "JetBrains Mono", "SFMono-Regular", ui-monospace, monospace !default;
+
+$body-bg: #16161a !default;
+$body-color: #e6e6e6 !default;
+$link-color: #e0a89e !default;   // washed oxblood for contrast on dark
+$primary: $link-color !default;
+
+/*-- scss:rules --*/
+body {
+  font-family: $font-family-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, .sidebar, .toc {
+  font-family: $font-family-sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.column-margin {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: #b9b9b9;
+}
+
+.theorem, .definition, .lemma, .corollary {
+  border-left: 3px solid $primary;
+  padding-left: 1rem;
+}

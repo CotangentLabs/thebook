@@ -1,0 +1,48 @@
+{{< include /_macros.qmd >}}
+
+# The Attention Mechanism {#sec-attention}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- From the graph intuition to the concrete operation: queries, keys,
+     values, scaled dot products, multiple heads, and the causal mask. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+- [ ]
+
+## Queries, keys, and values
+
+<!-- Three learned projections of the residual stream. What each one is for. -->
+
+## Scaled dot-product attention
+
+<!-- The softmax(QK^T / sqrt(d_k)) V formula; derive the 1/sqrt(d_k) scaling.
+     Reference: `src/thebook/attention.py`. -->
+
+## Multi-head attention
+
+<!-- Splitting into subspaces; heads as parallel relation types; concat and
+     project. Parameter and FLOP accounting. -->
+
+## Causal masking
+
+<!-- Autoregression as a directed graph; the lower-triangular mask; why it
+     preserves the training-parallel / inference-sequential asymmetry. -->
+
+## Complexity
+
+<!-- The O(n^2) cost in sequence length — the seed for @sec-hardware-lottery
+     and Part V. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO: implement scaled_dot_product_attention and MHA from the stubs. -->
+
+## Further reading {.unnumbered}
+
+<!-- [@vaswani2017attention] -->

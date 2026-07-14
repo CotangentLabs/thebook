@@ -1,0 +1,36 @@
+{{< include /_macros.qmd >}}
+
+# Mixture of Experts {#sec-mixture-of-experts}
+
+::: {.callout-note appearance="simple"}
+## In this chapter
+<!-- Decoupling parameter count from compute per token: route each token to a
+     few of many expert MLPs. -->
+:::
+
+**Learning objectives.**
+
+<!-- TODO -->
+- [ ]
+- [ ]
+
+## Sparse experts
+
+<!-- Replace the MLP (@sec-mlp-activations) with many; a router picks top-k.
+     Parameters grow, FLOPs per token do not. -->
+
+## Routing and its pathologies
+
+<!-- Load balancing, auxiliary losses, capacity factors; why routing is
+     finicky. -->
+
+## Systems implications
+
+<!-- Expert parallelism and all-to-all communication; ties to
+     @sec-systems-at-scale. -->
+
+## Exercises {.unnumbered}
+
+<!-- TODO -->
+
+## Further reading {.unnumbered}
